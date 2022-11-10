@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%=locals.title ?title :"login Page"%> </title>
+    <style>
+        body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #8282bc;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.center{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50% ,-50%);
+    width: 400px;
+    background-color: white;
+    border-radius: 15px;
+    
+}
+
+.center h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+
+    
+}
+.center form{
+   padding: 0 40px;
+   box-sizing: border-box;
+}
+
+form .text_field{
+    position: relative;
+    border-bottom:2px solid gray;
+    margin: 30px 0;
+
+}
+.text_field input{
+    width: 75%;
+    padding: 0 5px;
+    height :30px;
+    font-size: 16px;
+    border:none;
+    background: none;
+    outline: none;
+
+}
+
+
+input[type="submit"]{
+   width:45%;
+   height:35px;
+   background: #2691d9;
+   border-radius: 25px;
+   border: none;
+   font-size: 18px;
+   color: white;
+   font-weight: 700px;
+   cursor: pointer;
+   
+}
+.signup{
+    margin:20px 0;
+    font-size: 16px;
+    color:grey
+}
+.signup a{
+    color:rgb(120, 194, 218);
+    text-decoration: none;
+}
+    </style>
+   
+</head>
+<body>

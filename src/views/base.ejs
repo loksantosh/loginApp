@@ -1,0 +1,18 @@
+
+<%-include('header')-%> 
+
+    <div class="center">
+        <h1>Login</h1>
+        <form action='/login' method="post">
+            <div class="text_field">
+                <input type="text" placeholder="email" id="email"required>
+               </div>
+            <div class="text_field">
+                <input type="password"placeholder="password" id="password" required>
+                </div>
+         <input type="submit" value="Login">
+            <div class="signup">Not a member ?<a href="/signup">Signup</a></div>
+        </form>
+    </div>
+    
+    <%-include('footer')-%> 
